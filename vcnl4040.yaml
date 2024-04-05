@@ -5,7 +5,10 @@ esphome:
   includes:
     - /config/esphome/custom_sensors/vcnl4040.h
   libraries:
-   - "Adafruit VCNL4040@^1.0.1"
+   - "Wire"
+   - "SPI"
+   - "Adafruit VCNL4040@1.0.4"
+   - "Adafruit/Adafruit BusIO@1.15.0"
 
 wifi:
   ssid: !secret ssid
