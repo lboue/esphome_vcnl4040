@@ -7,8 +7,8 @@ esphome:
   libraries:
    - "Wire"
    - "SPI"
-   - "Adafruit VCNL4040@1.0.4"
    - "Adafruit/Adafruit BusIO@1.15.0"
+   - "Adafruit VCNL4040@1.0.4"
 
 wifi:
   ssid: !secret ssid
